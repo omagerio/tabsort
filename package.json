@@ -1,14 +1,21 @@
 {
 	"name": "tabsort",
 	"displayName": "tabsort",
-	"description": "Sorts open tabs and editors",
-	"version": "0.0.4",
+	"description": "Sorts open tabs and editors",	
+	"version": "0.0.5",
 	"publisher": "omagerio",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
 	"categories": [
 		"Other"
+	],
+	"keywords": [
+		"Sort open tabs",
+		"Sort open editors",
+		"Sort tabs",
+		"Sort editors",
+		"Sort"
 	],
 	"activationEvents": [
 		"*"
