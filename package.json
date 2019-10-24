@@ -2,7 +2,7 @@
 	"name": "tabsort",
 	"displayName": "Sort Tabs/Open Editors by name",
 	"description": "Sorts open tabs and editors by name/path",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "omagerio",
 	"engines": {
 		"vscode": "^1.39.0"
@@ -34,5 +34,17 @@
 		"mocha": "^6.1.4",
 		"typescript": "^3.3.1",
 		"vscode-test": "^1.2.0"
+	},
+	"contributes": {
+		"configuration": {
+			"title": "Sort by full path",
+			"properties": {
+				"tabsort.sortByFullPath": {
+					"type": "boolean",
+					"default": true,
+					"description": "Use full path instead of file name"
+				}
+			}
+		}
 	}
 }
